@@ -5,7 +5,7 @@ import SecondRowContent from './SecondRowContent'
 import MobileDrawer from './MobileDrawer'
 
 const NavMain = () => {
-  const { isDesktopWidth } = useContext(WindowUtilsContext)
+  const { isDesktopWidth, windowDimensions } = useContext(WindowUtilsContext)
   const [navbarHeight, setNavbarHeight] = useState(0)
   const navbarRef = useRef<HTMLDivElement>(null)
 
@@ -14,7 +14,7 @@ const NavMain = () => {
       // Update the height of the navbar
       setNavbarHeight(navbarRef.current.clientHeight)
     }
-  }, [isDesktopWidth]) // Recalculate when the layout switches between desktop and mobile
+  }, [windowDimensions]) // Recalculate when the layout switches between desktop and mobile
 
   return (
     <div>

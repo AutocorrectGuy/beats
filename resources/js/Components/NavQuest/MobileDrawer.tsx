@@ -7,7 +7,7 @@ const MobileDrawer = () => {
   return (
     <div className="drawer-side">
       <label htmlFor="nav-drawer" aria-label="close sidebar" className="drawer-overlay" />
-      <ul className="menu p-4 w-80 min-h-full bg-base-200">
+      <ul className="menu p-4 w-80 min-h-full bg-neutral-900">
         {/* Sidebar content from navbarData */}
         {navbarData.rowTwo.map((item, index) => (
           <li key={index}>

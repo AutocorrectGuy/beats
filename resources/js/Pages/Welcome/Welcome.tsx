@@ -3,6 +3,7 @@ import heroImage from '../../../images/hero-girl-1.png'
 import NavMain from '@/Components/NavQuest/NavMain'
 import { WindowUtilsProvider } from '@/Contexts/WindowUtilsContext'
 import HeroBanner from './HeroBanner'
+import TrendingTracks from './TrendingTracks'
 
 export default function Welcome() {
   return (
@@ -11,7 +12,7 @@ export default function Welcome() {
       <NavMain />
       {/* Page content */}
       <HeroBanner />
-      <HeroBanner />
+      <TrendingTracks />
     </WindowUtilsProvider>
   )
 }

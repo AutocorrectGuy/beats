@@ -15,14 +15,14 @@ const data = {
 }
 const rand = Math.random() * 20 + 10 // 10 - 29
 const bgColor = `${rand}, ${rand}, ${rand + 5}`
-
 const HeroBanner = () => {
-  const { isDesktopWidth } = useContext(WindowUtilsContext)
+  const { isDesktopWidth, windowDimensions  } = useContext(WindowUtilsContext)
+  const dynamicHeight = isDesktopWidth ? `${windowDimensions.height * 0.75}px` : '340px';
 
   return (
     <div
       className="relative w-full"
-      style={{ backgroundColor: `rgb(${bgColor}, 1)`, height: `${isDesktopWidth ? '640px' : '340px'}` }}
+      style={{ backgroundColor: `rgb(${bgColor}, 1)`, height: dynamicHeight }}
     >
       <div
         style={{
@@ -35,7 +35,7 @@ const HeroBanner = () => {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: '0% 40%',
           width: `${isDesktopWidth ? '50%' : '100%'}`,
-          height: `${isDesktopWidth ? '640px' : '340px'}`,
+          height: `${isDesktopWidth ? `${window.innerHeight * 0.75}px` : '340px'}`,
           position: 'absolute',
           right: '0',
           top: '0',
@@ -45,7 +45,7 @@ const HeroBanner = () => {
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-full flex items-center justify-start max-w-7xl">
         <div className="text-white text-xl w-full lg:w-2/3 flex flex-col gap-8 px-4 sm:px-2 xl:px-0">
           {/* Master heading */}
-          <h1 className="uppercase text-3xl text-center lg:text-5xl sm:text-left text-white tracking-tighter font-semibold">
+          <h1 className="uppercase text-3xl text-center lg:text-5xl sm:text-left text-white tracking-tighter font-semibold overflow-hidden">
             {data.heroText}
           </h1>
 
@@ -57,19 +57,19 @@ const HeroBanner = () => {
             <input
               type="text"
               placeholder="Explore new stuff - search for beats or producers"
-              className="px-2 py-3 lg:py-6 bg-transparent grow placeholder:text-sm lg:placeholder:text-xl placeholder:-translate-y-[2px] lg:placeholder:-translate-y-0 placeholder:text-neutral-400 border-0 focus:outline-none focus:ring-0 text-sm lg:text-xl font-normal"
+              className="px-2 py-3 min-w-0 lg:py-6 bg-transparent grow placeholder:text-sm lg:placeholder:text-xl placeholder:-translate-y-[2px] lg:placeholder:-translate-y-0 placeholder:text-neutral-400 border-0 focus:outline-none focus:ring-0 text-sm lg:text-xl font-normal"
             />
-            <button className="px-2 lg:px-5 font-semibold text-sm lg:text-lg">Search</button>
+            <button className="px-2 lg:px-5 font-semibold text-sm lg:text-lg overflow-hidden">Search</button>
           </div>
 
           {/* Trending list*/}
           <div className="flex flex-wrap">
-            <div className="mr-3 whitespace-nowrap mb-3">What is trending right now:</div>
+            <div className="mr-3 whitespace-nowrap overflow-hidden mb-3 text-sm md:text-lg">What is trending right now:</div>
             <div className="flex gap-3 overflow-x-auto">
               {data.trending.map((item, index) => (
                 <button
                   key={index}
-                  className="badge border-2 border-neutral-700 bg-neutral-800 hover:bg-neutral-700 cursor-pointer p-4 text-white font-semibold whitespace-nowrap"
+                  className="badge text-xs sm:text-sm border-2 border-neutral-700 bg-neutral-800 hover:bg-neutral-700 cursor-pointer p-4 text-white font-semibold whitespace-nowrap"
                 >
                   {item}
                 </button>
