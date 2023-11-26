@@ -1,5 +1,5 @@
 import ApplicationLogo from '@/Components/ApplicationLogo';
-import NavQuest from '@/Components/NavQuest';
+import NavQuest from '@/Components/NavQuest/NavMain';
 import { Link } from '@inertiajs/react';
 import { PropsWithChildren } from 'react';
 
