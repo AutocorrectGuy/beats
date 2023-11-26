@@ -27,7 +27,8 @@ const FirstRowContent = () => {
             </label>
           </div>
           <div className="flex lg:grow items-center">
-            <FontAwesomeIcon icon={faMusic} className="w-7 h-7 mr-6 text-rose-600" />
+            {/* Logo */}
+            <FontAwesomeIcon icon={faMusic} className="w-7 h-7 mr-6 text-pink-600" />
             {isDesktopWidth && <SearchBarDropdown />}
           </div>
         </div>

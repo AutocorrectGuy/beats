@@ -1,18 +1,25 @@
 import { Head } from '@inertiajs/react'
-import heroImage from '../../../images/hero-girl-1.png'
-import NavMain from '@/Components/NavQuest/NavMain'
 import { WindowUtilsProvider } from '@/Contexts/WindowUtilsContext'
+import NavMain from '@/Components/NavQuest/NavMain'
 import HeroBanner from './HeroBanner'
-import TrendingTracks from './TrendingTracks'
+import TrendingTracksSlider from './TrendingTracksSlider'
+
+// Logo images for `HorizontalScroller` component
+
+import PoweredByScroller from './PoweredByScroller'
+import GetStartedCTA from './GetStartedCTA'
 
 export default function Welcome() {
   return (
     <WindowUtilsProvider>
       <Head title="Welcome" />
       <NavMain />
+
       {/* Page content */}
       <HeroBanner />
-      <TrendingTracks />
+      <TrendingTracksSlider />
+      <PoweredByScroller />
+      <GetStartedCTA />
     </WindowUtilsProvider>
   )
 }

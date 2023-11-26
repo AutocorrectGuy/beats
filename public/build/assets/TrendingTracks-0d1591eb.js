@@ -1,1 +1,0 @@
-import{j as r}from"./app-660f8aac.js";const n=s=>r.jsx("div",{className:"text-neutral-200 min-h-screen min-w-full py-4 bg-neutral-800",children:r.jsx("div",{className:"max-w-7xl mx-auto",children:"Trending tracks"})}),a=n;export{a as default};
