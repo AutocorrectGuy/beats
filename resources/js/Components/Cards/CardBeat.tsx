@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import SkeletonRectangle from '../Skeletons/SkeletonRectangle'
+
 export type CardBeatProps = {
   price: number
   badge: string
@@ -9,11 +12,18 @@ export type CardBeatProps = {
 }
 
 const CardBeat = ({ price, badge, bpm, hasAd, beatName, author, image }: CardBeatProps) => {
+  const [loaded, setLoaded] = useState(false)
+
   return (
     <div className="w-full rounded-lg overflow-hidden p-3 hover:bg-neutral-600 hover:bg-opacity-25 border border-transparent hover:border-neutral-700 cursor-pointer">
       {/* Image */}
       <div className="aspect-square flex items-center justify-center border border-neutral-800 rounded-lg overflow-hidden">
-        <img src={image} className="object-cover w-full" />
+        {loaded ? null : <SkeletonRectangle />}
+        <img
+          src={image}
+          className={`object-cover w-full ${loaded ? 'visible' : 'hidden'}`}
+          onLoad={() => setLoaded(true)}
+        />
       </div>
       {/* Text content */}
       <div className="py-2">
@@ -21,7 +31,9 @@ const CardBeat = ({ price, badge, bpm, hasAd, beatName, author, image }: CardBea
         <div className="flex justify-start items-center gap-1 overflow-hidden font-medium text-sm sm:text-base">
           <div className="text-blue-500 whitespace-nowrap overflow-hidden">€{price}</div>
           {badge && (
-            <div className="badge bg-orange-500 text-orange-400 bg-opacity-20 font-light text-[0.6rem] whitespace-nowrap overflow-hidden">{badge}</div>
+            <div className="badge bg-orange-500 text-orange-400 bg-opacity-20 font-light text-[0.6rem] whitespace-nowrap overflow-hidden">
+              {badge}
+            </div>
           )}
           <div className="text-neutral-400">·</div>
           <div className="text-neutral-400 opacity-90 whitespace-nowrap overflow-hidden">{bpm} BPM</div>
