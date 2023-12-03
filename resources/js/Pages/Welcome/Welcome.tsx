@@ -8,18 +8,19 @@ import TrendingTracksSlider from './TrendingTracksSlider'
 
 import PoweredByScroller from './PoweredByScroller'
 import GetStartedCTA from './GetStartedCTA'
+import SuccessStoriesScroller from './SuccessStoriesScroller'
 
 export default function Welcome() {
   return (
     <WindowUtilsProvider>
       <Head title="Welcome" />
       <NavMain />
-
       {/* Page content */}
       <HeroBanner />
       <TrendingTracksSlider />
       <PoweredByScroller />
       <GetStartedCTA />
+      <SuccessStoriesScroller />
     </WindowUtilsProvider>
   )
 }

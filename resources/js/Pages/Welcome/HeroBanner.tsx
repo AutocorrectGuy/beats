@@ -1,8 +1,8 @@
-import React, { useContext } from 'react'
-import heroImage from '../../../images/hero-girl-1.png'
+import { useContext } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { WindowUtilsContext } from '@/Contexts/WindowUtilsContext'
+import heroImage from '../../../images/Pages/Welcome/HeroBanner/hero-girl-1.png'
 
 const data = {
   heroText: 'Your first hit starts here',
@@ -13,17 +13,17 @@ const data = {
     beatType: 'Cyber-Trap x type beat',
   },
 }
+
+// Sets random color to the banner backgroound
 const rand = Math.random() * 20 + 10 // 10 - 29
 const bgColor = `${rand}, ${rand}, ${rand + 5}`
+
 const HeroBanner = () => {
-  const { isDesktopWidth, windowDimensions  } = useContext(WindowUtilsContext)
-  const dynamicHeight = isDesktopWidth ? `${windowDimensions.height * 0.75}px` : '340px';
+  const { isDesktopWidth, windowDimensions } = useContext(WindowUtilsContext)
+  const dynamicHeight = isDesktopWidth ? `${windowDimensions.height * 0.75}px` : '340px'
 
   return (
-    <div
-      className="relative w-full"
-      style={{ backgroundColor: `rgb(${bgColor}, 1)`, height: dynamicHeight }}
-    >
+    <div className="relative w-full" style={{ backgroundColor: `rgb(${bgColor}, 1)`, height: dynamicHeight }}>
       <div
         style={{
           backgroundImage: `${
@@ -64,7 +64,9 @@ const HeroBanner = () => {
 
           {/* Trending list*/}
           <div className="flex flex-wrap">
-            <div className="mr-3 whitespace-nowrap overflow-hidden mb-3 text-sm md:text-lg">What is trending right now:</div>
+            <div className="mr-3 whitespace-nowrap overflow-hidden mb-3 text-sm md:text-lg">
+              What is trending right now:
+            </div>
             <div className="flex gap-3 overflow-x-auto">
               {data.trending.map((item, index) => (
                 <button
@@ -79,14 +81,14 @@ const HeroBanner = () => {
         </div>
 
         {/* Current Beat */}
-        {isDesktopWidth && (
-          <div className="block absolute right-0 bottom-14 text-white font-bold text-3xl uppercase text-right backdrop-blur-sm bg-neutral-900 bg-opacity-10 rounded-xl p-2">
-            <div className="flex gap-4">
+        {isDesktopWidth && windowDimensions.height > 640 && (
+          <div className="block absolute right-0 bottom-14 text-white font-bold text-3xl uppercase text-right rounded-xl p-2 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+            <div className="flex gap-4 bg-neutral-700 bg-opacity-25 rounded-lg px-2">
               <div>{data.song.artist}</div>
               <div>|</div>
               <div>{data.song.song}</div>
             </div>
-            <div>{data.song.beatType}</div>
+            <div className="bg-neutral-700 bg-opacity-25 rounded-lg px-2 w-fit float-right">{data.song.beatType}</div>
           </div>
         )}
       </div>

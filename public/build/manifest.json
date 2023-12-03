@@ -1,69 +1,100 @@
 {
-  "_ApplicationLogo-d1ecd71c.js": {
-    "file": "assets/ApplicationLogo-d1ecd71c.js",
+  "_ApplicationLogo-62935cf4.js": {
+    "file": "assets/ApplicationLogo-62935cf4.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_AuthenticatedLayout-c0add2c6.js": {
-    "file": "assets/AuthenticatedLayout-c0add2c6.js",
+  "_AuthenticatedLayout-f116d9fa.js": {
+    "file": "assets/AuthenticatedLayout-f116d9fa.js",
     "imports": [
       "resources/js/app.tsx",
-      "_ApplicationLogo-d1ecd71c.js",
-      "_Dropdown-95c42a49.js"
+      "_ApplicationLogo-62935cf4.js",
+      "_Dropdown-d47873c0.js"
     ]
   },
-  "_Dropdown-95c42a49.js": {
-    "file": "assets/Dropdown-95c42a49.js",
+  "_Dropdown-d47873c0.js": {
+    "file": "assets/Dropdown-d47873c0.js",
     "imports": [
       "resources/js/app.tsx",
-      "_transition-c94624f8.js"
+      "_transition-819ef7d4.js"
     ]
   },
-  "_GuestLayout-dac884d7.js": {
-    "file": "assets/GuestLayout-dac884d7.js",
+  "_GuestLayout-7642344b.js": {
+    "file": "assets/GuestLayout-7642344b.js",
     "imports": [
       "resources/js/app.tsx",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_ApplicationLogo-62935cf4.js"
     ]
   },
-  "_HeroBanner-41d1ca9b.js": {
+  "_HeroBanner-acc39f3a.js": {
     "assets": [
       "assets/hero-girl-1-e41b5562.png"
     ],
-    "file": "assets/HeroBanner-41d1ca9b.js",
+    "file": "assets/HeroBanner-acc39f3a.js",
     "imports": [
       "resources/js/app.tsx",
-      "_WindowUtilsContext-280da690.js"
+      "_index.es-ec25ccac.js",
+      "_WindowUtilsContext-53187011.js"
     ],
     "isDynamicEntry": true
   },
-  "_InputLabel-e247d72e.js": {
-    "file": "assets/InputLabel-e247d72e.js",
+  "_InputLabel-600b772d.js": {
+    "file": "assets/InputLabel-600b772d.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_PrimaryButton-b9e0f721.js": {
-    "file": "assets/PrimaryButton-b9e0f721.js",
+  "_PrimaryButton-de7abcfd.js": {
+    "file": "assets/PrimaryButton-de7abcfd.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_TextInput-26a98551.js": {
-    "file": "assets/TextInput-26a98551.js",
+  "_Scroller-83c729f9.js": {
+    "file": "assets/Scroller-83c729f9.js",
+    "imports": [
+      "resources/js/app.tsx",
+      "_WindowUtilsContext-53187011.js"
+    ]
+  },
+  "_TextInput-8c4f1d2f.js": {
+    "file": "assets/TextInput-8c4f1d2f.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_WindowUtilsContext-280da690.js": {
-    "file": "assets/WindowUtilsContext-280da690.js",
+  "_WindowUtilsContext-53187011.js": {
+    "file": "assets/WindowUtilsContext-53187011.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_transition-c94624f8.js": {
-    "file": "assets/transition-c94624f8.js",
+  "_album-cover (12)-49690c6b.js": {
+    "assets": [
+      "assets/album-cover (1)-9828f7ea.png",
+      "assets/album-cover (2)-dba5ab5c.png",
+      "assets/album-cover (3)-d5f8889b.png",
+      "assets/album-cover (4)-b3c72cf5.png",
+      "assets/album-cover (5)-15006b0e.png",
+      "assets/album-cover (6)-94d496fa.png",
+      "assets/album-cover (7)-b5f5cb13.png",
+      "assets/album-cover (8)-b8040736.png",
+      "assets/album-cover (9)-752a14f2.png",
+      "assets/album-cover (10)-33079185.png",
+      "assets/album-cover (11)-554df724.png",
+      "assets/album-cover (12)-b76004f1.png"
+    ],
+    "file": "assets/album-cover (12)-49690c6b.js"
+  },
+  "_index.es-ec25ccac.js": {
+    "file": "assets/index.es-ec25ccac.js",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_transition-819ef7d4.js": {
+    "file": "assets/transition-819ef7d4.js",
     "imports": [
       "resources/js/app.tsx"
     ]
@@ -88,222 +119,246 @@
     "file": "assets/slick-26726bac.woff",
     "src": "node_modules/slick-carousel/slick/fonts/slick.woff"
   },
-  "resources/images/PoweredBy logos/daisyui-logo-white.png": {
-    "file": "assets/daisyui-logo-white-8a83e00f.png",
-    "src": "resources/images/PoweredBy logos/daisyui-logo-white.png"
+  "resources/images/Pages/Welcome/GetStartCTA/cta-cover.png": {
+    "file": "assets/cta-cover-fc00c97b.png",
+    "src": "resources/images/Pages/Welcome/GetStartCTA/cta-cover.png"
   },
-  "resources/images/PoweredBy logos/hostinger-logo-white.png": {
-    "file": "assets/hostinger-logo-white-ea894a3a.png",
-    "src": "resources/images/PoweredBy logos/hostinger-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/inertia-logo-white.png": {
-    "file": "assets/inertia-logo-white-af7bec39.png",
-    "src": "resources/images/PoweredBy logos/inertia-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/jetstream-logo-white.png": {
-    "file": "assets/jetstream-logo-white-de24824c.png",
-    "src": "resources/images/PoweredBy logos/jetstream-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/laravel-logo-white.png": {
-    "file": "assets/laravel-logo-white-fd717a9d.png",
-    "src": "resources/images/PoweredBy logos/laravel-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/react-logo-white.png": {
-    "file": "assets/react-logo-white-7f2f2935.png",
-    "src": "resources/images/PoweredBy logos/react-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/redis-logo-white.png": {
-    "file": "assets/redis-logo-white-15fca93d.png",
-    "src": "resources/images/PoweredBy logos/redis-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/stripe-logo-white.png": {
-    "file": "assets/stripe-logo-white-e967e3f2.png",
-    "src": "resources/images/PoweredBy logos/stripe-logo-white.png"
-  },
-  "resources/images/PoweredBy logos/tailwind-logo-white.png": {
-    "file": "assets/tailwind-logo-white-f2ee3a60.png",
-    "src": "resources/images/PoweredBy logos/tailwind-logo-white.png"
-  },
-  "resources/images/Trending album artwroks/album-cover (1).png": {
-    "file": "assets/album-cover (1)-9828f7ea.png",
-    "src": "resources/images/Trending album artwroks/album-cover (1).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (2).png": {
-    "file": "assets/album-cover (2)-dba5ab5c.png",
-    "src": "resources/images/Trending album artwroks/album-cover (2).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (3).png": {
-    "file": "assets/album-cover (3)-d5f8889b.png",
-    "src": "resources/images/Trending album artwroks/album-cover (3).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (4).png": {
-    "file": "assets/album-cover (4)-b3c72cf5.png",
-    "src": "resources/images/Trending album artwroks/album-cover (4).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (5).png": {
-    "file": "assets/album-cover (5)-15006b0e.png",
-    "src": "resources/images/Trending album artwroks/album-cover (5).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (6).png": {
-    "file": "assets/album-cover (6)-94d496fa.png",
-    "src": "resources/images/Trending album artwroks/album-cover (6).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (7).png": {
-    "file": "assets/album-cover (7)-b5f5cb13.png",
-    "src": "resources/images/Trending album artwroks/album-cover (7).png"
-  },
-  "resources/images/Trending album artwroks/album-cover (8).png": {
-    "file": "assets/album-cover (8)-b8040736.png",
-    "src": "resources/images/Trending album artwroks/album-cover (8).png"
-  },
-  "resources/images/hero-girl-1.png": {
+  "resources/images/Pages/Welcome/HeroBanner/hero-girl-1.png": {
     "file": "assets/hero-girl-1-e41b5562.png",
-    "src": "resources/images/hero-girl-1.png"
+    "src": "resources/images/Pages/Welcome/HeroBanner/hero-girl-1.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/daisyui-logo-white.png": {
+    "file": "assets/daisyui-logo-white-8a83e00f.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/daisyui-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/hostinger-logo-white.png": {
+    "file": "assets/hostinger-logo-white-ea894a3a.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/hostinger-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/inertia-logo-white.png": {
+    "file": "assets/inertia-logo-white-af7bec39.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/inertia-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/jetstream-logo-white.png": {
+    "file": "assets/jetstream-logo-white-de24824c.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/jetstream-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/laravel-logo-white.png": {
+    "file": "assets/laravel-logo-white-fd717a9d.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/laravel-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/react-logo-white.png": {
+    "file": "assets/react-logo-white-7f2f2935.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/react-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/redis-logo-white.png": {
+    "file": "assets/redis-logo-white-15fca93d.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/redis-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/stripe-logo-white.png": {
+    "file": "assets/stripe-logo-white-e967e3f2.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/stripe-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/PoweredBy logos/tailwind-logo-white.png": {
+    "file": "assets/tailwind-logo-white-f2ee3a60.png",
+    "src": "resources/images/Pages/Welcome/PoweredBy logos/tailwind-logo-white.png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (1).png": {
+    "file": "assets/album-cover (1)-9828f7ea.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (1).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (10).png": {
+    "file": "assets/album-cover (10)-33079185.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (10).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (11).png": {
+    "file": "assets/album-cover (11)-554df724.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (11).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (12).png": {
+    "file": "assets/album-cover (12)-b76004f1.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (12).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (2).png": {
+    "file": "assets/album-cover (2)-dba5ab5c.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (2).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (3).png": {
+    "file": "assets/album-cover (3)-d5f8889b.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (3).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (4).png": {
+    "file": "assets/album-cover (4)-b3c72cf5.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (4).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (5).png": {
+    "file": "assets/album-cover (5)-15006b0e.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (5).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (6).png": {
+    "file": "assets/album-cover (6)-94d496fa.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (6).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (7).png": {
+    "file": "assets/album-cover (7)-b5f5cb13.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (7).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (8).png": {
+    "file": "assets/album-cover (8)-b8040736.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (8).png"
+  },
+  "resources/images/Pages/Welcome/Trending album artwroks/album-cover (9).png": {
+    "file": "assets/album-cover (9)-752a14f2.png",
+    "src": "resources/images/Pages/Welcome/Trending album artwroks/album-cover (9).png"
   },
   "resources/js/Pages/Auth/ConfirmPassword.tsx": {
-    "file": "assets/ConfirmPassword-3da49789.js",
+    "file": "assets/ConfirmPassword-5055e610.js",
     "imports": [
       "resources/js/app.tsx",
-      "_GuestLayout-dac884d7.js",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_GuestLayout-7642344b.js",
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_ApplicationLogo-62935cf4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ConfirmPassword.tsx"
   },
   "resources/js/Pages/Auth/ForgotPassword.tsx": {
-    "file": "assets/ForgotPassword-3ba83531.js",
+    "file": "assets/ForgotPassword-f9f8d4d9.js",
     "imports": [
       "resources/js/app.tsx",
-      "_GuestLayout-dac884d7.js",
-      "_TextInput-26a98551.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_GuestLayout-7642344b.js",
+      "_TextInput-8c4f1d2f.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_ApplicationLogo-62935cf4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ForgotPassword.tsx"
   },
   "resources/js/Pages/Auth/Login.tsx": {
-    "file": "assets/Login-d638234e.js",
+    "file": "assets/Login-45939da1.js",
     "imports": [
       "resources/js/app.tsx",
-      "_GuestLayout-dac884d7.js",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_GuestLayout-7642344b.js",
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_ApplicationLogo-62935cf4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Login.tsx"
   },
   "resources/js/Pages/Auth/Register.tsx": {
-    "file": "assets/Register-1425fc4f.js",
+    "file": "assets/Register-c0d20105.js",
     "imports": [
       "resources/js/app.tsx",
-      "_GuestLayout-dac884d7.js",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_GuestLayout-7642344b.js",
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_ApplicationLogo-62935cf4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Register.tsx"
   },
   "resources/js/Pages/Auth/ResetPassword.tsx": {
-    "file": "assets/ResetPassword-a6b1b299.js",
+    "file": "assets/ResetPassword-b41789c1.js",
     "imports": [
       "resources/js/app.tsx",
-      "_GuestLayout-dac884d7.js",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_GuestLayout-7642344b.js",
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_ApplicationLogo-62935cf4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ResetPassword.tsx"
   },
   "resources/js/Pages/Auth/VerifyEmail.tsx": {
-    "file": "assets/VerifyEmail-c3514394.js",
+    "file": "assets/VerifyEmail-c9d1944b.js",
     "imports": [
       "resources/js/app.tsx",
-      "_GuestLayout-dac884d7.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_ApplicationLogo-d1ecd71c.js"
+      "_GuestLayout-7642344b.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_ApplicationLogo-62935cf4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/VerifyEmail.tsx"
   },
   "resources/js/Pages/Dashboard.tsx": {
-    "file": "assets/Dashboard-58df7470.js",
+    "file": "assets/Dashboard-a1f52ba7.js",
     "imports": [
       "resources/js/app.tsx",
-      "_AuthenticatedLayout-c0add2c6.js",
-      "_ApplicationLogo-d1ecd71c.js",
-      "_Dropdown-95c42a49.js",
-      "_transition-c94624f8.js"
+      "_AuthenticatedLayout-f116d9fa.js",
+      "_ApplicationLogo-62935cf4.js",
+      "_Dropdown-d47873c0.js",
+      "_transition-819ef7d4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Dashboard.tsx"
   },
   "resources/js/Pages/Profile/Edit.tsx": {
-    "file": "assets/Edit-6e49cdca.js",
+    "file": "assets/Edit-0582814a.js",
     "imports": [
       "resources/js/app.tsx",
-      "_AuthenticatedLayout-c0add2c6.js",
+      "_AuthenticatedLayout-f116d9fa.js",
       "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx",
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx",
-      "_ApplicationLogo-d1ecd71c.js",
-      "_Dropdown-95c42a49.js",
-      "_transition-c94624f8.js",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js"
+      "_ApplicationLogo-62935cf4.js",
+      "_Dropdown-d47873c0.js",
+      "_transition-819ef7d4.js",
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Edit.tsx"
   },
   "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx": {
-    "file": "assets/DeleteUserForm-d4128982.js",
+    "file": "assets/DeleteUserForm-4e5745af.js",
     "imports": [
       "resources/js/app.tsx",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_transition-c94624f8.js"
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_transition-819ef7d4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.tsx"
   },
   "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx": {
-    "file": "assets/UpdatePasswordForm-9f46cea9.js",
+    "file": "assets/UpdatePasswordForm-d0567301.js",
     "imports": [
       "resources/js/app.tsx",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_transition-c94624f8.js"
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_transition-819ef7d4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx"
   },
   "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx": {
-    "file": "assets/UpdateProfileInformationForm-58c41361.js",
+    "file": "assets/UpdateProfileInformationForm-b1aa61ff.js",
     "imports": [
       "resources/js/app.tsx",
-      "_TextInput-26a98551.js",
-      "_InputLabel-e247d72e.js",
-      "_PrimaryButton-b9e0f721.js",
-      "_transition-c94624f8.js"
+      "_TextInput-8c4f1d2f.js",
+      "_InputLabel-600b772d.js",
+      "_PrimaryButton-de7abcfd.js",
+      "_transition-819ef7d4.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx"
   },
   "resources/js/Pages/Welcome/GetStartedCTA.tsx": {
-    "file": "assets/GetStartedCTA-fffe7a89.js",
+    "assets": [
+      "assets/cta-cover-fc00c97b.png"
+    ],
+    "file": "assets/GetStartedCTA-1b95b47d.js",
     "imports": [
-      "resources/js/app.tsx"
+      "resources/js/app.tsx",
+      "_index.es-ec25ccac.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Welcome/GetStartedCTA.tsx"
@@ -320,12 +375,25 @@
       "assets/stripe-logo-white-e967e3f2.png",
       "assets/tailwind-logo-white-f2ee3a60.png"
     ],
-    "file": "assets/PoweredByScroller-e55031de.js",
+    "file": "assets/PoweredByScroller-414978ec.js",
     "imports": [
-      "resources/js/app.tsx"
+      "resources/js/app.tsx",
+      "_Scroller-83c729f9.js",
+      "_WindowUtilsContext-53187011.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Welcome/PoweredByScroller.tsx"
+  },
+  "resources/js/Pages/Welcome/SuccessStoriesScroller.tsx": {
+    "file": "assets/SuccessStoriesScroller-6cc28c04.js",
+    "imports": [
+      "resources/js/app.tsx",
+      "_Scroller-83c729f9.js",
+      "_album-cover (12)-49690c6b.js",
+      "_WindowUtilsContext-53187011.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Welcome/SuccessStoriesScroller.tsx"
   },
   "resources/js/Pages/Welcome/TrendingTracksSlider.css": {
     "file": "assets/TrendingTracksSlider-131e9e7a.css",
@@ -333,14 +401,6 @@
   },
   "resources/js/Pages/Welcome/TrendingTracksSlider.tsx": {
     "assets": [
-      "assets/album-cover (1)-9828f7ea.png",
-      "assets/album-cover (2)-dba5ab5c.png",
-      "assets/album-cover (3)-d5f8889b.png",
-      "assets/album-cover (4)-b3c72cf5.png",
-      "assets/album-cover (5)-15006b0e.png",
-      "assets/album-cover (6)-94d496fa.png",
-      "assets/album-cover (7)-b5f5cb13.png",
-      "assets/album-cover (8)-b8040736.png",
       "assets/ajax-loader-e7b44c86.gif",
       "assets/slick-06d80cf0.eot",
       "assets/slick-26726bac.woff",
@@ -350,36 +410,40 @@
     "css": [
       "assets/TrendingTracksSlider-131e9e7a.css"
     ],
-    "file": "assets/TrendingTracksSlider-f74c56cb.js",
+    "file": "assets/TrendingTracksSlider-d7770e5d.js",
     "imports": [
       "resources/js/app.tsx",
-      "_WindowUtilsContext-280da690.js"
+      "_album-cover (12)-49690c6b.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Welcome/TrendingTracksSlider.tsx"
   },
   "resources/js/Pages/Welcome/Welcome.tsx": {
-    "file": "assets/Welcome-3fc8b9e7.js",
+    "file": "assets/Welcome-96797ff8.js",
     "imports": [
       "resources/js/app.tsx",
-      "_WindowUtilsContext-280da690.js",
-      "_HeroBanner-41d1ca9b.js",
-      "_Dropdown-95c42a49.js",
+      "_WindowUtilsContext-53187011.js",
+      "_index.es-ec25ccac.js",
+      "_HeroBanner-acc39f3a.js",
+      "_Dropdown-d47873c0.js",
       "resources/js/Pages/Welcome/TrendingTracksSlider.tsx",
       "resources/js/Pages/Welcome/PoweredByScroller.tsx",
       "resources/js/Pages/Welcome/GetStartedCTA.tsx",
-      "_transition-c94624f8.js"
+      "resources/js/Pages/Welcome/SuccessStoriesScroller.tsx",
+      "_transition-819ef7d4.js",
+      "_album-cover (12)-49690c6b.js",
+      "_Scroller-83c729f9.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Welcome/Welcome.tsx"
   },
   "resources/js/app.css": {
-    "file": "assets/app-220efa93.css",
+    "file": "assets/app-82ea7e96.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.tsx": {
     "css": [
-      "assets/app-220efa93.css"
+      "assets/app-82ea7e96.css"
     ],
     "dynamicImports": [
       "resources/js/Pages/Auth/ConfirmPassword.tsx",
@@ -394,12 +458,13 @@
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.tsx",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.tsx",
       "resources/js/Pages/Welcome/GetStartedCTA.tsx",
-      "_HeroBanner-41d1ca9b.js",
+      "_HeroBanner-acc39f3a.js",
       "resources/js/Pages/Welcome/PoweredByScroller.tsx",
+      "resources/js/Pages/Welcome/SuccessStoriesScroller.tsx",
       "resources/js/Pages/Welcome/TrendingTracksSlider.tsx",
       "resources/js/Pages/Welcome/Welcome.tsx"
     ],
-    "file": "assets/app-4fa4e598.js",
+    "file": "assets/app-92506399.js",
     "isEntry": true,
     "src": "resources/js/app.tsx"
   }

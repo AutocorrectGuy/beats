@@ -2,22 +2,23 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
-import TrackCard, { TrackCardProps } from '@/Components/TrackCard'
-import artwork1 from '../../../images/Trending album artwroks/album-cover (1).png'
-import artwork2 from '../../../images/Trending album artwroks/album-cover (2).png'
-import artwork3 from '../../../images/Trending album artwroks/album-cover (3).png'
-import artwork4 from '../../../images/Trending album artwroks/album-cover (4).png'
-import artwork5 from '../../../images/Trending album artwroks/album-cover (5).png'
-import artwork6 from '../../../images/Trending album artwroks/album-cover (6).png'
-import artwork7 from '../../../images/Trending album artwroks/album-cover (7).png'
-import artwork8 from '../../../images/Trending album artwroks/album-cover (8).png'
-import { useContext } from 'react'
-import { WindowUtilsContext } from '@/Contexts/WindowUtilsContext'
+import TrackCard, { CardBeatProps } from '@/Components/Cards/CardBeat'
+
+import artwork1 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (1).png'
+import artwork2 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (2).png'
+import artwork3 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (3).png'
+import artwork4 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (4).png'
+import artwork5 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (5).png'
+import artwork6 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (6).png'
+import artwork7 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (7).png'
+import artwork8 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (8).png'
+import artwork9 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (9).png'
+import artwork10 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (10).png'
+import artwork11 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (11).png'
+import artwork12 from '../../../images/Pages/Welcome/Trending album artwroks/album-cover (12).png'
 
 const TrendingTracksSlider = () => {
-  const { isDesktopWidth } = useContext(WindowUtilsContext)
-
-  const tracksDummyData: TrackCardProps[] = [
+  const tracksDummyData: CardBeatProps[] = [
     {
       price: 70,
       badge: 'NEW',
@@ -89,23 +90,96 @@ const TrendingTracksSlider = () => {
       beatName: 'Rap Anthem',
       author: 'MC Rhymes',
       image: artwork8,
-    }
+    },
+    {
+      price: 99,
+      badge: 'ELECTRO',
+      bpm: 128,
+      hasAd: true,
+      beatName: 'Retro Wave',
+      author: 'DJ Pixel',
+      image: artwork9,
+    },
+    {
+      price: 150,
+      badge: 'RAP',
+      bpm: 90,
+      hasAd: false,
+      beatName: 'Street Verse',
+      author: 'MC Lyricist',
+      image: artwork10,
+    },
+    {
+      price: 120,
+      badge: 'CHILL',
+      bpm: 100,
+      hasAd: false,
+      beatName: 'Urban Sunset',
+      author: 'Soul Beats',
+      image: artwork11,
+    },
+    {
+      price: 200,
+      badge: 'HYPE',
+      bpm: 140,
+      hasAd: true,
+      beatName: 'Hyper Flow',
+      author: 'Rap Machine',
+      image: artwork12,
+    },
   ]
 
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: isDesktopWidth ? 6 : 2,
-    slidesToScroll: 1,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 768, // Min-width 768px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 1024, // Min-width 1024px
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 1400, // Min-width 1024px
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+        },
+      },
+      {
+        breakpoint: 2000, // Min-width 1024px
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 6,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 9999, // Min-width 9999px
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 6,
+          arrows: true,
+        },
+      },
+    ],
   }
 
   return (
-    <div className="py-8 bg-neutral-900">
+    <div className="pt-8 bg-neutral-900">
       <div className="max-w-7xl mx-auto text-white">
         <h1 className="font-bold text-3xl pb-4 px-2">Trending tracks</h1>
-        <Slider {...settings}>
+        <Slider {...settings} touchThreshold={100}>
           {tracksDummyData.map((track, i) => (
             <span key={`trending-track-card-${i}`}>
               <TrackCard {...track} />
